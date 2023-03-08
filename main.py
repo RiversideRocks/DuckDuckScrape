@@ -15,6 +15,8 @@ def download_pdf(url, folder):
     print(f"{filename} saved to {folder}")
 
 # "site:justice.gov filetype:pdf \"v.\""
+
+# search, pages, directory
 def scraper(q, p, d):
     WAIT_LOW = 5
     WAIT_HIGH = 15
